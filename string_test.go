@@ -39,3 +39,4 @@ func TestSubstring(t *testing.T) {
 			Ellipsis:  false,
 			Result:    "bc",
 		},
+		// ellipsis: true
