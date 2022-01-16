@@ -42,3 +42,4 @@ func Substring(s string, start int, end int, trimSpace, ellipsis bool) string {
 
 	return s[index:]
 }
+
