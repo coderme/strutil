@@ -43,3 +43,4 @@ func TestSubstring(t *testing.T) {
 		{
 			Value:     "abcdef",
 			Start:     0,
+			End:       2,
