@@ -45,3 +45,4 @@ func Substring(s string, start int, end int, trimSpace, ellipsis bool) string {
 
 // TrimPhrases trims phrases prefix/suffix from s.
 func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
+	s = TrimPrefixPhrases(s, trimSpace, phrases...)
