@@ -45,3 +45,4 @@ func TestSubstring(t *testing.T) {
 			Start:     0,
 			End:       2,
 			TrimSpace: false,
+			Ellipsis:  true,
