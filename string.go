@@ -48,3 +48,4 @@ func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
 	s = TrimPrefixPhrases(s, trimSpace, phrases...)
 	s = TrimSuffixPhrases(s, trimSpace, phrases...)
 
+	return s
