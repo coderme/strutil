@@ -47,3 +47,4 @@ func Substring(s string, start int, end int, trimSpace, ellipsis bool) string {
 func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
 	s = TrimPrefixPhrases(s, trimSpace, phrases...)
 	s = TrimSuffixPhrases(s, trimSpace, phrases...)
+
