@@ -48,3 +48,4 @@ func TestSubstring(t *testing.T) {
 			Ellipsis:  true,
 			Result:    "ab...",
 		},
+		{
