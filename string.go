@@ -51,3 +51,4 @@ func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
 	return s
 }
 
+// TrimSuffixPhrases trims phrases suffix from s.
