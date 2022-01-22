@@ -50,3 +50,4 @@ func TestSubstring(t *testing.T) {
 		},
 		{
 			Value:     "abcdef",
+			Start:     4,
