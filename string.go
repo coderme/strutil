@@ -53,3 +53,4 @@ func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
 
 // TrimSuffixPhrases trims phrases suffix from s.
 func TrimSuffixPhrases(s string, trimSpace bool, phrases ...string) string {
+	for _, v := range phrases {
