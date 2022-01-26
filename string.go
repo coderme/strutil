@@ -55,3 +55,4 @@ func TrimPhrases(s string, trimSpace bool, phrases ...string) string {
 func TrimSuffixPhrases(s string, trimSpace bool, phrases ...string) string {
 	for _, v := range phrases {
 		if v != "" {
+			if trimSpace {
