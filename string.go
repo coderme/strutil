@@ -56,3 +56,4 @@ func TrimSuffixPhrases(s string, trimSpace bool, phrases ...string) string {
 	for _, v := range phrases {
 		if v != "" {
 			if trimSpace {
+				s = strings.TrimSpace(s)
