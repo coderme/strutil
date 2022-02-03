@@ -67,3 +67,4 @@ func TestSubstring(t *testing.T) {
 		// trimSpace: true
 		{
 			Value:     " abcdef ",
+			Start:     0,
