@@ -69,3 +69,4 @@ func TrimSuffixPhrases(s string, trimSpace bool, phrases ...string) string {
 	}
 
 	return s
+}
