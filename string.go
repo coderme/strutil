@@ -72,3 +72,4 @@ func TrimSuffixPhrases(s string, trimSpace bool, phrases ...string) string {
 }
 
 // TrimPrefixPhrases trims phrases prefix from s.
+func TrimPrefixPhrases(s string, trimSpace bool, phrases ...string) string {
