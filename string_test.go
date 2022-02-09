@@ -79,3 +79,4 @@ func TestSubstring(t *testing.T) {
 			End:       9,
 			TrimSpace: true,
 			Ellipsis:  false,
+			Result:    "ef",
