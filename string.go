@@ -83,3 +83,4 @@ func TrimPrefixPhrases(s string, trimSpace bool, phrases ...string) string {
 				s = strings.TrimPrefix(s, str)
 				if trimSpace {
 					s = strings.TrimSpace(s)
+				}
