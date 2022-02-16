@@ -90,3 +90,4 @@ func TestSubstring(t *testing.T) {
 			Result:    "bc",
 		},
 
+		// trimSpace: true
