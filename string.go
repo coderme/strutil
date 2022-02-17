@@ -94,3 +94,4 @@ func TrimPrefixPhrases(s string, trimSpace bool, phrases ...string) string {
 // IsNumeric returns true if s contains only utf8 numbers.
 func IsNumeric(s string, trimSpace bool) bool {
 	if trimSpace {
+		s = strings.TrimSpace(s)
