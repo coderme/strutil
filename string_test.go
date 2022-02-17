@@ -92,3 +92,4 @@ func TestSubstring(t *testing.T) {
 
 		// trimSpace: true
 		// ellipsis: true
+		{
