@@ -94,3 +94,4 @@ func TestSubstring(t *testing.T) {
 		// ellipsis: true
 		{
 			Value:     " abcdef ",
+			Start:     0,
