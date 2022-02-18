@@ -97,3 +97,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 		s = strings.TrimSpace(s)
 	}
 
+	for _, char := range strings.Split(s, "") {
