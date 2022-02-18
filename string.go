@@ -98,3 +98,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 	}
 
 	for _, char := range strings.Split(s, "") {
+		r, _ := utf8.DecodeRuneInString(char)
