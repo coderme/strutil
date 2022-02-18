@@ -98,3 +98,4 @@ func TestSubstring(t *testing.T) {
 			End:       2,
 			TrimSpace: true,
 			Ellipsis:  true,
+			Result:    "ab...",
