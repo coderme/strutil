@@ -96,3 +96,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 	if trimSpace {
 		s = strings.TrimSpace(s)
 	}
+
