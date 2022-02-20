@@ -101,3 +101,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 		r, _ := utf8.DecodeRuneInString(char)
 		if !unicode.IsDigit(r) {
 			return false
+		}
