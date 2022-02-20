@@ -102,3 +102,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 		if !unicode.IsDigit(r) {
 			return false
 		}
+	}
