@@ -101,3 +101,4 @@ func TestSubstring(t *testing.T) {
 			Result:    "ab...",
 		},
 		{
+			Value:     " abcdef ",
