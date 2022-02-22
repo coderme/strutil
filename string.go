@@ -107,3 +107,4 @@ func IsNumeric(s string, trimSpace bool) bool {
 	return true
 }
 
+// IsMultiByte checks if s contains a multibyte characters.
