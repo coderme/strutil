@@ -115,3 +115,4 @@ func TestSubstring(t *testing.T) {
 			TrimSpace: true,
 			Ellipsis:  true,
 			Result:    "bc...",
+		},
