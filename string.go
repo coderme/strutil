@@ -116,3 +116,4 @@ func IsMultiByte(s string, trimSpace bool) bool {
 	for _, char := range strings.Split(s, "") {
 		_, v := utf8.DecodeRuneInString(char)
 		if v > 1 {
+			return true
