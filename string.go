@@ -118,3 +118,4 @@ func IsMultiByte(s string, trimSpace bool) bool {
 		if v > 1 {
 			return true
 		}
+	}
