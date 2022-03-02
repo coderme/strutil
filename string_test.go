@@ -120,3 +120,4 @@ func TestSubstring(t *testing.T) {
 
 	for _, v := range cases {
 		if r := Substring(v.Value, v.Start, v.End, v.TrimSpace, v.Ellipsis); r != v.Result {
+			t.Error("expected:", v.Result,
