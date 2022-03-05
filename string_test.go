@@ -122,3 +122,4 @@ func TestSubstring(t *testing.T) {
 		if r := Substring(v.Value, v.Start, v.End, v.TrimSpace, v.Ellipsis); r != v.Result {
 			t.Error("expected:", v.Result,
 				", but found:", r,
+				"for:", v.Value,
