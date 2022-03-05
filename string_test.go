@@ -123,3 +123,4 @@ func TestSubstring(t *testing.T) {
 			t.Error("expected:", v.Result,
 				", but found:", r,
 				"for:", v.Value,
+				"Start:", v.Start,
