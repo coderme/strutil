@@ -124,3 +124,4 @@ func TestSubstring(t *testing.T) {
 				", but found:", r,
 				"for:", v.Value,
 				"Start:", v.Start,
+				"end:", v.End,
