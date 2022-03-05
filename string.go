@@ -123,3 +123,4 @@ func IsMultiByte(s string, trimSpace bool) bool {
 	return false
 }
 
+// WrappedASCII wraps s of ASCII long lines to max per line.
