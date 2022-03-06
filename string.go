@@ -127,3 +127,4 @@ func IsMultiByte(s string, trimSpace bool) bool {
 func WrappedASCII(s string, max int) (lines []string) {
 	if max == 0 {
 		return
+	}
