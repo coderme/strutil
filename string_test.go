@@ -125,3 +125,4 @@ func TestSubstring(t *testing.T) {
 				"for:", v.Value,
 				"Start:", v.Start,
 				"end:", v.End,
+				"trimSpace:", v.TrimSpace,
