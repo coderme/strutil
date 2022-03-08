@@ -128,3 +128,4 @@ func TestSubstring(t *testing.T) {
 				"trimSpace:", v.TrimSpace,
 				"ellipsis:", v.Ellipsis,
 			)
+		}
