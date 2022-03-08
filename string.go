@@ -130,3 +130,4 @@ func WrappedASCII(s string, max int) (lines []string) {
 	}
 
 	l := len(s)
+
