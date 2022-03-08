@@ -129,3 +129,4 @@ func TestSubstring(t *testing.T) {
 				"ellipsis:", v.Ellipsis,
 			)
 		}
+	}
