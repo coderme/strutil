@@ -128,3 +128,4 @@ func WrappedASCII(s string, max int) (lines []string) {
 	if max == 0 {
 		return
 	}
+
