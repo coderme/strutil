@@ -132,3 +132,4 @@ func TestSubstring(t *testing.T) {
 	}
 }
 
+// TestTrimPhrases tests TrimPhrases for trimming phrases from the both start and end of a string.
