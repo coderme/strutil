@@ -136,3 +136,4 @@ func TestSubstring(t *testing.T) {
 func TestTrimPhrases(t *testing.T) {
 	t.Parallel()
 
+	type Case struct {
