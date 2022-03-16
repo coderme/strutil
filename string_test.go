@@ -143,3 +143,4 @@ func TestTrimPhrases(t *testing.T) {
 	}
 
 	cases := []Case{
+		{
