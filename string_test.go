@@ -142,3 +142,4 @@ func TestTrimPhrases(t *testing.T) {
 		TrimSpace     bool
 	}
 
+	cases := []Case{
