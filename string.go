@@ -141,3 +141,4 @@ func WrappedASCII(s string, max int) (lines []string) {
 	var i, index int
 
 	for j := range s {
+		if j > 0 && i%max == 0 {
