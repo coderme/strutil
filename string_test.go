@@ -140,3 +140,4 @@ func TestTrimPhrases(t *testing.T) {
 		Value, Result string
 		Phrases       []string
 		TrimSpace     bool
+	}
