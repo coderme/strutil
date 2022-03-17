@@ -144,3 +144,4 @@ func TestTrimPhrases(t *testing.T) {
 
 	cases := []Case{
 		{
+			Value: "I bought a new car which is really expensive",
