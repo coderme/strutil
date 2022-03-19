@@ -147,3 +147,4 @@ func WrappedASCII(s string, max int) (lines []string) {
 		}
 
 		if j == end {
+			lines = append(lines, s[index:])
