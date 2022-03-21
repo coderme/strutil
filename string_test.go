@@ -152,3 +152,4 @@ func TestTrimPhrases(t *testing.T) {
 			},
 
 			Result:    "new car which is",
+			TrimSpace: true,
