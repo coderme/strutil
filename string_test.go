@@ -151,3 +151,4 @@ func TestTrimPhrases(t *testing.T) {
 				"really expensive",
 			},
 
+			Result:    "new car which is",
