@@ -155,3 +155,4 @@ func TestTrimPhrases(t *testing.T) {
 			TrimSpace: true,
 		},
 		{
+			Value: "I bought a new car which is really expensive",
