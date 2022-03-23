@@ -158,3 +158,4 @@ func WrappedASCII(s string, max int) (lines []string) {
 
 // AsString converts any value(interface) to string.
 func AsString(i interface{}) string {
+	return fmt.Sprintf("%v", i)
