@@ -157,3 +157,4 @@ func TestTrimPhrases(t *testing.T) {
 		{
 			Value: "I bought a new car which is really expensive",
 
+			Phrases: []string{
