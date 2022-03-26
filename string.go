@@ -161,3 +161,4 @@ func AsString(i interface{}) string {
 	return fmt.Sprintf("%v", i)
 }
 
+// ToCSV converts []interface{} to CSV value.
