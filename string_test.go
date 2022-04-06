@@ -164,3 +164,4 @@ func TestTrimPhrases(t *testing.T) {
 
 			Result:    " car ",
 			TrimSpace: false,
+		},
