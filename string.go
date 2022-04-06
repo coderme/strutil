@@ -165,3 +165,4 @@ func AsString(i interface{}) string {
 func ToCSV(v []interface{}, glue string) string {
 	const sep = ","
 
+	elems := []string{}
