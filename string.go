@@ -168,3 +168,4 @@ func ToCSV(v []interface{}, glue string) string {
 	elems := []string{}
 	for _, i := range v {
 		elems = append(elems, AsString(i))
+	}
