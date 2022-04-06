@@ -166,3 +166,4 @@ func ToCSV(v []interface{}, glue string) string {
 	const sep = ","
 
 	elems := []string{}
+	for _, i := range v {
