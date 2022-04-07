@@ -171,3 +171,4 @@ func ToCSV(v []interface{}, glue string) string {
 	}
 
 	if glue != "" {
+		return strings.Join(elems, glue)
