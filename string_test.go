@@ -170,3 +170,4 @@ func TestTrimPhrases(t *testing.T) {
 	for _, v := range cases {
 		if r := TrimPhrases(v.Value, v.TrimSpace, v.Phrases...); r != v.Result {
 			t.Error("expected:", v.Result,
+				", but Found:", r,
