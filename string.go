@@ -170,3 +170,4 @@ func ToCSV(v []interface{}, glue string) string {
 		elems = append(elems, AsString(i))
 	}
 
+	if glue != "" {
