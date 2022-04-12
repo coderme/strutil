@@ -174,3 +174,4 @@ func TestTrimPhrases(t *testing.T) {
 			)
 		}
 	}
+}
