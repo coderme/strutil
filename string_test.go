@@ -173,3 +173,4 @@ func TestTrimPhrases(t *testing.T) {
 				", but Found:", r,
 			)
 		}
+	}
