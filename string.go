@@ -178,3 +178,4 @@ func ToCSV(v []interface{}, glue string) string {
 }
 
 // ToSlice converts interface to []string.
+func ToSlice(v interface{}) []string {
