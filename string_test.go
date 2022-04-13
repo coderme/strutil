@@ -178,3 +178,4 @@ func TestTrimPhrases(t *testing.T) {
 
 // TestTrimSuffixPhrases tests TrimSuffixPhrases for trimming phrases from the end of a string.
 func TestTrimSuffixPhrases(t *testing.T) {
+	t.Parallel()
