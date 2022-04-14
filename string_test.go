@@ -182,3 +182,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 
 	type Case struct {
 		Value, Result string
+		Phrases       []string
