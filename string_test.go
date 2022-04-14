@@ -180,3 +180,4 @@ func TestTrimPhrases(t *testing.T) {
 func TestTrimSuffixPhrases(t *testing.T) {
 	t.Parallel()
 
+	type Case struct {
