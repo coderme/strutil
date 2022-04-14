@@ -181,3 +181,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 	t.Parallel()
 
 	type Case struct {
+		Value, Result string
