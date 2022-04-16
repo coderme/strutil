@@ -187,3 +187,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 	}
 
 	cases := []Case{
+		{
