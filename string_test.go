@@ -185,3 +185,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 		Phrases       []string
 		TrimSpace     bool
 	}
+
