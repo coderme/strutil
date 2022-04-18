@@ -189,3 +189,4 @@ func ToSlice(v interface{}) []string {
 }
 
 // SplitTrim splits v to []string  using by.
+func SplitTrim(v, by string) []string {
