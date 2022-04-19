@@ -193,3 +193,4 @@ func SplitTrim(v, by string) []string {
 	s := strings.Split(v, by)
 	for c := range s {
 		s[c] = strings.TrimSpace(s[c])
+	}
