@@ -195,3 +195,4 @@ func SplitTrim(v, by string) []string {
 		s[c] = strings.TrimSpace(s[c])
 	}
 
+	return s
