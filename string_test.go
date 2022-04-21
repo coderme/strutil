@@ -198,3 +198,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 			Result:    "I bought a new car",
 			TrimSpace: true,
 		},
+		{
