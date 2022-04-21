@@ -199,3 +199,4 @@ func SplitTrim(v, by string) []string {
 }
 
 // IsIEqual checks if all args are the same regardless of the case characters.
+func IsIEqual(trim bool, args ...string) bool {
