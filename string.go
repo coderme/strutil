@@ -202,3 +202,4 @@ func SplitTrim(v, by string) []string {
 func IsIEqual(trim bool, args ...string) bool {
 	if n := len(args); n == 0 {
 		return false
+	} else if n == 1 {
