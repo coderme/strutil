@@ -204,3 +204,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 			Phrases: []string{
 				"which is really expensive",
 			},
+
