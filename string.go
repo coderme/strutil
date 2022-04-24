@@ -205,3 +205,4 @@ func IsIEqual(trim bool, args ...string) bool {
 	} else if n == 1 {
 		return true
 	}
+
