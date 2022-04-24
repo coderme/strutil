@@ -205,3 +205,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 				"which is really expensive",
 			},
 
+			Result:    "I bought a new car ",
