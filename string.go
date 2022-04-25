@@ -211,3 +211,4 @@ func IsIEqual(trim bool, args ...string) bool {
 			continue
 		}
 
+		pre := strings.ToLower(args[k-1])
