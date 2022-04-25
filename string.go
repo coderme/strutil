@@ -209,3 +209,4 @@ func IsIEqual(trim bool, args ...string) bool {
 	for k, arg := range args {
 		if k == 0 {
 			continue
+		}
