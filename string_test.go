@@ -214,3 +214,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 		if r := TrimSuffixPhrases(v.Value, v.TrimSpace, v.Phrases...); r != v.Result {
 			t.Error("expected", v.Result,
 				", but Found:", r,
+			)
