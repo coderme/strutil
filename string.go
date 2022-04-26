@@ -215,3 +215,4 @@ func IsIEqual(trim bool, args ...string) bool {
 		this := strings.ToLower(arg)
 
 		if trim {
+			pre = strings.TrimSpace(pre)
