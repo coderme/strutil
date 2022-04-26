@@ -215,3 +215,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 			t.Error("expected", v.Result,
 				", but Found:", r,
 			)
+		}
