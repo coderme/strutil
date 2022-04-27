@@ -216,3 +216,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 				", but Found:", r,
 			)
 		}
+	}
