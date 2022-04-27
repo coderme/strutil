@@ -217,3 +217,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 			)
 		}
 	}
+}
