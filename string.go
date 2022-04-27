@@ -218,3 +218,4 @@ func IsIEqual(trim bool, args ...string) bool {
 			pre = strings.TrimSpace(pre)
 			this = strings.TrimSpace(this)
 		}
+
