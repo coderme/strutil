@@ -223,3 +223,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 func TestTrimPrefixPhrases(t *testing.T) {
 	t.Parallel()
 
+	type Case struct {
