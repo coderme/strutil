@@ -222,3 +222,4 @@ func IsIEqual(trim bool, args ...string) bool {
 		if pre != this {
 			return false
 		}
+	}
