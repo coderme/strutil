@@ -222,3 +222,4 @@ func TestTrimSuffixPhrases(t *testing.T) {
 // TestTrimPrefixPhrases tests TrimPrefixPhrases for trimming phrases from the start of a string.
 func TestTrimPrefixPhrases(t *testing.T) {
 	t.Parallel()
+
