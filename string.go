@@ -228,3 +228,4 @@ func IsIEqual(trim bool, args ...string) bool {
 }
 
 // IContainsAny checks if any args is in the first arg.
+func IContainsAny(s string, args ...string) bool {
