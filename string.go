@@ -227,3 +227,4 @@ func IsIEqual(trim bool, args ...string) bool {
 	return true
 }
 
+// IContainsAny checks if any args is in the first arg.
