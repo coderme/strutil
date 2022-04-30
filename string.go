@@ -225,3 +225,4 @@ func IsIEqual(trim bool, args ...string) bool {
 	}
 
 	return true
+}
