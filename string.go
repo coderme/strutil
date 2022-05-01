@@ -231,3 +231,4 @@ func IsIEqual(trim bool, args ...string) bool {
 func IContainsAny(s string, args ...string) bool {
 	s = strings.ToLower(s)
 	for _, a := range args {
+		if strings.Contains(s, strings.ToLower(a)) {
