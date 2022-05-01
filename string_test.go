@@ -230,3 +230,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 	}
 
 	cases := []Case{
+		{
