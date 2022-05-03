@@ -239,3 +239,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 				"a",
 			},
 
+			Result:    "new car which is really expensive",
