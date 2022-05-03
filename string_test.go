@@ -236,3 +236,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 			Phrases: []string{
 				"I",
 				"bought",
+				"a",
