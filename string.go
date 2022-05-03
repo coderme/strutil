@@ -238,3 +238,4 @@ func IContainsAny(s string, args ...string) bool {
 
 	return false
 }
+
