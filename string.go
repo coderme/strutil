@@ -240,3 +240,4 @@ func IContainsAny(s string, args ...string) bool {
 }
 
 // IcontainsAnyPhrase checks if any args is in the first arg, case insensitive.
+func IcontainsAnyPhrase(s string, args ...string) bool {
