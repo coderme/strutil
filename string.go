@@ -246,3 +246,4 @@ func IcontainsAnyPhrase(s string, args ...string) bool {
 		if strings.Contains(s, strings.ToLower(a)) {
 			return true
 		}
+	}
