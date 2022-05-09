@@ -252,3 +252,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 			},
 
 			Result:    "new car which is really expensive",
+			TrimSpace: false,
