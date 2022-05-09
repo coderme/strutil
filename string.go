@@ -255,3 +255,4 @@ func IcontainsAnyPhrase(s string, args ...string) bool {
 func ContainsAnyPhrase(s string, args ...string) bool {
 	for _, a := range args {
 		if strings.Contains(s, a) {
+			return true
