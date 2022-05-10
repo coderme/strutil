@@ -257,3 +257,4 @@ func ContainsAnyPhrase(s string, args ...string) bool {
 		if strings.Contains(s, a) {
 			return true
 		}
+	}
