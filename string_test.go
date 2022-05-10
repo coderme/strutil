@@ -259,3 +259,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 	for _, v := range cases {
 		if r := TrimPrefixPhrases(v.Value, v.TrimSpace, v.Phrases...); r != v.Result {
 			t.Error("expected", v.Result,
+				", but Found:", r,
