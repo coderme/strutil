@@ -261,3 +261,4 @@ func ContainsAnyPhrase(s string, args ...string) bool {
 
 	return false
 }
+
