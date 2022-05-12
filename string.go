@@ -262,3 +262,4 @@ func ContainsAnyPhrase(s string, args ...string) bool {
 	return false
 }
 
+// ContainsAll checks if all args are in the first arg, case sensitive.
