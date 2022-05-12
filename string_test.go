@@ -260,3 +260,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 		if r := TrimPrefixPhrases(v.Value, v.TrimSpace, v.Phrases...); r != v.Result {
 			t.Error("expected", v.Result,
 				", but Found:", r,
+			)
