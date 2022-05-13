@@ -265,3 +265,4 @@ func ContainsAnyPhrase(s string, args ...string) bool {
 // ContainsAll checks if all args are in the first arg, case sensitive.
 func ContainsAll(s string, args ...string) bool {
 	for _, a := range args {
+		if !strings.Contains(s, a) {
