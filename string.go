@@ -268,3 +268,4 @@ func ContainsAll(s string, args ...string) bool {
 		if !strings.Contains(s, a) {
 			return false
 		}
+	}
