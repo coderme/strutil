@@ -269,3 +269,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 func TestIsNumeric(t *testing.T) {
 	t.Parallel()
 
+	type Case struct {
