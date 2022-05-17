@@ -271,3 +271,4 @@ func ContainsAll(s string, args ...string) bool {
 	}
 
 	return true
+}
