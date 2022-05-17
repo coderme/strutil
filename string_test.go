@@ -268,3 +268,4 @@ func TestTrimPrefixPhrases(t *testing.T) {
 // TestIsNumeric tests IsNumeric for detecting numeric strings.
 func TestIsNumeric(t *testing.T) {
 	t.Parallel()
+
