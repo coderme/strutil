@@ -273,3 +273,4 @@ func ContainsAll(s string, args ...string) bool {
 	return true
 }
 
+// ContainsIAll checks if all args are in the first arg, case isensitive.
