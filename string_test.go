@@ -274,3 +274,4 @@ func TestIsNumeric(t *testing.T) {
 		Result    bool
 		TrimSpace bool
 	}
+
