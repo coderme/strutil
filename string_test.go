@@ -275,3 +275,4 @@ func TestIsNumeric(t *testing.T) {
 		TrimSpace bool
 	}
 
+	cases := []Case{
