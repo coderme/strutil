@@ -272,3 +272,4 @@ func TestIsNumeric(t *testing.T) {
 	type Case struct {
 		Value     string
 		Result    bool
+		TrimSpace bool
