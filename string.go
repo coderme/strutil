@@ -279,3 +279,4 @@ func ContainsIAll(s string, args ...string) bool {
 	for _, a := range args {
 		if !strings.Contains(s, strings.ToUpper(a)) {
 			return false
+		}
