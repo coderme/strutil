@@ -277,3 +277,4 @@ func TestIsNumeric(t *testing.T) {
 
 	cases := []Case{
 		{
+			Value: " 0000000 ",
