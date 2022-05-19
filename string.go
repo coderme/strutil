@@ -280,3 +280,4 @@ func ContainsIAll(s string, args ...string) bool {
 		if !strings.Contains(s, strings.ToUpper(a)) {
 			return false
 		}
+	}
