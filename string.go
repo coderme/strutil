@@ -287,3 +287,4 @@ func ContainsIAll(s string, args ...string) bool {
 
 // ReplaceAny replaces any args, n times with s.
 func ReplaceAny(s, r string, n int, args ...string) string {
+	for _, a := range args {
