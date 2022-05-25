@@ -284,3 +284,4 @@ func TestIsNumeric(t *testing.T) {
 		},
 		{
 			Value: "1234 ",
+
