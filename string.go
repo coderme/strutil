@@ -285,3 +285,4 @@ func ContainsIAll(s string, args ...string) bool {
 	return true
 }
 
+// ReplaceAny replaces any args, n times with s.
