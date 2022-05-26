@@ -291,3 +291,4 @@ func ReplaceAny(s, r string, n int, args ...string) string {
 		s = strings.Replace(s, a, r, n)
 	}
 
+	return s
