@@ -289,3 +289,4 @@ func ContainsIAll(s string, args ...string) bool {
 func ReplaceAny(s, r string, n int, args ...string) string {
 	for _, a := range args {
 		s = strings.Replace(s, a, r, n)
+	}
