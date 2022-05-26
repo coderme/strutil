@@ -290,3 +290,4 @@ func TestIsNumeric(t *testing.T) {
 		},
 		{
 			Value: " ٠١٢٣ ",
+
