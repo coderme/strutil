@@ -294,3 +294,4 @@ func ReplaceAny(s, r string, n int, args ...string) string {
 	return s
 }
 
+// CaseToWords splits a word into many based on Case so AboutMe -> About Me.
