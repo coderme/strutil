@@ -295,3 +295,4 @@ func TestIsNumeric(t *testing.T) {
 			TrimSpace: true,
 		},
 		{
+			Value: "٠١٢٣ ",
