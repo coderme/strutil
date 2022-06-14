@@ -293,3 +293,4 @@ func TestIsNumeric(t *testing.T) {
 
 			Result:    true,
 			TrimSpace: true,
+		},
