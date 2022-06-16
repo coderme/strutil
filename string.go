@@ -299,3 +299,4 @@ func CaseToWords(s string, trimSpace bool) string {
 	var (
 		r = []rune{}
 		p rune
+	)
