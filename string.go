@@ -298,3 +298,4 @@ func ReplaceAny(s, r string, n int, args ...string) string {
 func CaseToWords(s string, trimSpace bool) string {
 	var (
 		r = []rune{}
+		p rune
