@@ -301,3 +301,4 @@ func CaseToWords(s string, trimSpace bool) string {
 		p rune
 	)
 
+	const space rune = 32
