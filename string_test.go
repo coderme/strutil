@@ -302,3 +302,4 @@ func TestIsNumeric(t *testing.T) {
 		},
 	}
 
+	for _, v := range cases {
