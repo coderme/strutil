@@ -304,3 +304,4 @@ func CaseToWords(s string, trimSpace bool) string {
 	const space rune = 32
 
 	for _, c := range s {
+		if unicode.IsUpper(c) &&
