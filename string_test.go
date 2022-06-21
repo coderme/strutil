@@ -303,3 +303,4 @@ func TestIsNumeric(t *testing.T) {
 	}
 
 	for _, v := range cases {
+		if r := IsNumeric(v.Value, v.TrimSpace); r != v.Result {
