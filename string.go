@@ -306,3 +306,4 @@ func CaseToWords(s string, trimSpace bool) string {
 	for _, c := range s {
 		if unicode.IsUpper(c) &&
 			p > 0 &&
+			p != 32 {
