@@ -306,3 +306,4 @@ func TestIsNumeric(t *testing.T) {
 		if r := IsNumeric(v.Value, v.TrimSpace); r != v.Result {
 			t.Error("expected:", v.Result,
 				", but Found:", r,
+			)
