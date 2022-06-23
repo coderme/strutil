@@ -308,3 +308,4 @@ func CaseToWords(s string, trimSpace bool) string {
 			p > 0 &&
 			p != 32 {
 			r = append(r, space, c)
+
