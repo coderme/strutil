@@ -308,3 +308,4 @@ func TestIsNumeric(t *testing.T) {
 				", but Found:", r,
 			)
 		}
+	}
