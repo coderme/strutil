@@ -309,3 +309,4 @@ func TestIsNumeric(t *testing.T) {
 			)
 		}
 	}
+}
