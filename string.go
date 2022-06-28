@@ -312,3 +312,4 @@ func CaseToWords(s string, trimSpace bool) string {
 			continue
 		}
 
+		r = append(r, c)
