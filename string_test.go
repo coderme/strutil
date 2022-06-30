@@ -314,3 +314,4 @@ func TestIsNumeric(t *testing.T) {
 // TestIsMultiByte tests IsMultiBye for detecting multibyte symbols in strings.
 func TestIsMultiByte(t *testing.T) {
 	t.Parallel()
+
