@@ -315,3 +315,4 @@ func TestIsNumeric(t *testing.T) {
 func TestIsMultiByte(t *testing.T) {
 	t.Parallel()
 
+	type Case struct {
