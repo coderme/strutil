@@ -313,3 +313,4 @@ func CaseToWords(s string, trimSpace bool) string {
 		}
 
 		r = append(r, c)
+		p = c
