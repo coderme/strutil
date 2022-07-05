@@ -317,3 +317,4 @@ func TestIsMultiByte(t *testing.T) {
 
 	type Case struct {
 		Value     string
+		Result    bool
