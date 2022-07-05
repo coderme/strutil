@@ -316,3 +316,4 @@ func TestIsMultiByte(t *testing.T) {
 	t.Parallel()
 
 	type Case struct {
+		Value     string
