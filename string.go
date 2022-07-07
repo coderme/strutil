@@ -321,3 +321,4 @@ func CaseToWords(s string, trimSpace bool) string {
 		return strings.TrimSpace(v)
 	}
 
+	return v
