@@ -321,3 +321,4 @@ func TestIsMultiByte(t *testing.T) {
 		TrimSpace bool
 	}
 
+	cases := []Case{
