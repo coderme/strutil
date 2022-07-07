@@ -320,3 +320,4 @@ func TestIsMultiByte(t *testing.T) {
 		Result    bool
 		TrimSpace bool
 	}
+
