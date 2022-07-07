@@ -322,3 +322,4 @@ func TestIsMultiByte(t *testing.T) {
 	}
 
 	cases := []Case{
+		{
