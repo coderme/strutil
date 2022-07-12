@@ -325,3 +325,4 @@ func TestIsMultiByte(t *testing.T) {
 		{
 			Value: " 0000000 ",
 
+			Result:    false,
