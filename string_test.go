@@ -336,3 +336,4 @@ func TestIsMultiByte(t *testing.T) {
 		},
 		{
 			Value: " ٠١٢٣ ",
+
