@@ -348,3 +348,4 @@ func TestIsMultiByte(t *testing.T) {
 		},
 	}
 
+	for _, v := range cases {
