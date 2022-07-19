@@ -347,3 +347,4 @@ func TestIsMultiByte(t *testing.T) {
 			TrimSpace: false,
 		},
 	}
+
