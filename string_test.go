@@ -352,3 +352,4 @@ func TestIsMultiByte(t *testing.T) {
 		if r := IsMultiByte(v.Value, v.TrimSpace); r != v.Result {
 			t.Error("expected:", v.Result,
 				", but Found:", r,
+			)
