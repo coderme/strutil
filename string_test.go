@@ -350,3 +350,4 @@ func TestIsMultiByte(t *testing.T) {
 
 	for _, v := range cases {
 		if r := IsMultiByte(v.Value, v.TrimSpace); r != v.Result {
+			t.Error("expected:", v.Result,
