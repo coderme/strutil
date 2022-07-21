@@ -354,3 +354,4 @@ func TestIsMultiByte(t *testing.T) {
 				", but Found:", r,
 			)
 		}
+	}
