@@ -355,3 +355,4 @@ func TestIsMultiByte(t *testing.T) {
 			)
 		}
 	}
+}
